@@ -1,0 +1,116 @@
+.menuBtn {
+    /* margin-top: 40px; */
+    color: #3282AD !important;
+
+}
+
+.signup {
+    width: 123px;
+    height: 54px;
+    color: #fff;
+    background: rgba(5, 100, 153, 0.8);
+    border-radius: 44px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+Li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #3A3A3A;
+
+}
+
+
+.visitButton {
+    background: #D2F4FF;
+    border-radius: 44px;
+    margin: 133px 0 48px 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+}
+
+.titleColor {
+    color: #3282AD;
+
+}
+
+.bannerButton {
+    border: 2px solid #3282AD;
+    color: #3282AD;
+    padding: 16px 32px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 64px;
+    margin-bottom: 136px;
+}
+
+.Banner {
+    background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%) !important;
+    /* max-width: 1366px;
+    margin: 0 auto;
+    background-color: aquamarine !important;
+    padding: 0 70px; */
+    /* width: 1366px; */
+    /* height: 848px; */
+    /* border: 2px solid; */
+}
+
+.bannerImage {
+    width: 421.17px;
+    height: 425.51px;
+    /* margin-top: 230px; */
+}
+
+
+@media screen and (max-width:768px) {
+    .bannerImage {
+        width: 262.42px;
+        height: 265.13px;
+    }
+
+    .title {
+        font-size: 32px;
+
+    }
+
+    .navLogo {
+        width: 70.97px;
+        height: 40px;
+    }
+
+    .bannerButton {
+        padding: 8px 16px;
+        line-height: 32px;
+        margin-top: 32px;
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .visitButton {
+        display: none !important;
+    }
+
+    .bannerImage {
+        display: none;
+    }
+
+    .title {
+        padding-top: 112px;
+
+    }
+
+
+}
