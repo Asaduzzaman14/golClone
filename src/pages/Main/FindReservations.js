@@ -12,7 +12,7 @@ const FindReservations = () => {
             <div className='mapBg'>
                 <div>
                     <div className='BookingBgImage'>
-                        <h2 className='bookingTitle'>My booking</h2>
+                        <h2 className='pageTitle'>My booking</h2>
                     </div>
                 </div>
 

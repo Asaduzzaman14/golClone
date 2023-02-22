@@ -47,7 +47,7 @@ const Home = () => {
                                     <Link to='/' class="nav-link active" aria-current="page" href="#">Gol</Link>
                                 </li>
                                 <li class="nav-item">
-                                    <Link to='/' class="nav-link active" aria-current="page" href="#">Suport</Link>
+                                    <Link to='/support' class="nav-link active" aria-current="page" href="#">Suport</Link>
                                 </li>
 
 
