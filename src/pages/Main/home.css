@@ -86,13 +86,16 @@ Li {
 
 .imageBg2 {
     background-image: url('../../assets/banner0.png');
-    /* z-index: 2; */
-    /* background-image: url('../../assets/map.png'); */
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+}
 
+.image3 {
+    background-image: url('../../assets/banner1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 150px;
 }
 
 .imageBg {

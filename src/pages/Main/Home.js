@@ -86,7 +86,9 @@ const Home = () => {
                         <div class="col-sm-6">
                             <div class="imageBg">
                                 <div class="imageBg2">
-                                    <img className='bannerImage' src={bannerimage} alt="" />
+                                    <div className='image3'>
+                                        <img className='bannerImage' src={bannerimage} alt="" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
