@@ -22,6 +22,9 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <Link to='/findReservations' class="nav-link active" aria-current="page" href="findReservations">Find Reservations</Link>
                             </li>
+                            <li class="nav-item">
+                                <Link to='/support' class="nav-link active" aria-current="page" href="#">Suport</Link>
+                            </li>
 
                             <li class="nav-item">
                                 <Link to='/' class="nav-link active" aria-current="page" href="#">Packages</Link>
@@ -35,15 +38,12 @@ const Navbar = () => {
                             <li class="nav-item">
                                 <Link to='/' class="nav-link active" aria-current="page" href="#">Gol</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link to='/support' class="nav-link active" aria-current="page" href="#">Suport</Link>
-                            </li>
 
 
 
                         </ul>
 
-                        <form class="d-lg-flex">
+                        <form class="d-lg-flex align-items-center ">
                             <p class="nav-item text-center mx-auto">
                                 <Link to={'/'} class="nav-link fw-bolder active" aria-current="page" href="#">login</Link>
                             </p>

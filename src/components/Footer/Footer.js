@@ -54,7 +54,7 @@ const Footer = () => {
 
 
             <div className='socialSection '>
-                <div className='socialLinks   row'>
+                <div className='socialLinks padding mx-w-100 row'>
 
                     <div className='col-3 mobileHeight '>
                         <img src={gol} alt="" />

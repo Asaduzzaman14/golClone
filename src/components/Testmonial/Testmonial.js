@@ -30,7 +30,7 @@ const Testmonial = () => {
     ]
 
     return (
-        <div className=''>
+        <div className='padding'>
             <h2 class='testmonialTitle' >What Our Clients Says <br /> About Us</h2>
 
             <div className='row g-3 '>

@@ -50,7 +50,7 @@ const datas = [
 
 const IslandStay = () => {
     return (
-        <div>
+        <div className='padding'>
             <h2 className='mb-2' style={{ marginTop: '88px' }}>Island Stays</h2>
             <p className='IslandStayDesc'>
                 One can choose from a variety of beautiful coral islands which offers different staying experiences from thatched huts to luxurious

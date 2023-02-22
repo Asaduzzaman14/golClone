@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
-            <div className='Banner'>
+            <div className='Banner padding'>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div style={{ paddingTop: '30px' }} class="container-fluid d-flex align-items-center align-middle">
                         <div className='navLogo me-5' class="nav-item " style={{ paddingleft: '87px' }}>
@@ -28,15 +28,20 @@ const Home = () => {
                         </button>
 
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
 
                                 <li class="nav-item">
                                     <Link to='findReservations' class="nav-link active" aria-current="findReservations" href="findReservations">Find Reservations</Link>
                                 </li>
 
                                 <li class="nav-item">
+                                    <Link to='/support' class="nav-link active" aria-current="page" href="#">Suport</Link>
+                                </li>
+
+                                <li class="nav-item " aria-disabled>
                                     <Link to='/' class="nav-link active" aria-current="page" href="#">Packages</Link>
                                 </li>
+
                                 <li class="nav-item">
                                     <Link to='/' class="nav-link active" aria-current="page" href="#">About Lakshadweep</Link>
                                 </li>
@@ -46,16 +51,14 @@ const Home = () => {
                                 <li class="nav-item">
                                     <Link to='/' class="nav-link active" aria-current="page" href="#">Gol</Link>
                                 </li>
-                                <li class="nav-item">
-                                    <Link to='/support' class="nav-link active" aria-current="page" href="#">Suport</Link>
-                                </li>
+
 
 
 
                             </ul>
 
-                            <form class="d-lg-flex">
-                                <p class="nav-item text-center mx-auto">
+                            <form class="d-lg-flex align-items-center ">
+                                <p class="nav-item text-center m-0 mx-auto">
                                     <Link to={'/'} class="nav-link fw-bolder active" aria-current="page" href="#">login</Link>
                                 </p>
 
@@ -72,15 +75,19 @@ const Home = () => {
 
                         <div class="col-sm-6">
                             <div class="text-center text-md-start">
-                                <button className='visitButton border-0 px-2  d-flex align-items-center gap-2 align-middle rounded-pill'>Visit <img style={{ width: '20px' }} src={visitIcon} alt="" /></button>
+                                <div className='hide'>
+                                    <button className='visitButton  border-0 px-2  d-flex align-items-center gap-2 align-middle rounded-pill'>Visit <img style={{ width: '20px' }} src={visitIcon} alt="" /></button>
+                                </div>
                                 <h2 className='title'>The Exotic <span className='titleColor'>Lakshadweep</span> Islands</h2>
                                 <button className='bannerButton'>Discover Now</button>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
-                            <div class="">
-                                <img className='bannerImage' src={bannerimage} alt="" />
+                            <div class="imageBg">
+                                <div class="imageBg2">
+                                    <img className='bannerImage' src={bannerimage} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,8 +96,9 @@ const Home = () => {
             </div>
 
 
-            {/* <Fling /> */}
+            <Fling />
             <Packages />
+            <div></div>
             <IslandStay />
             <Contact />
             <Testmonial />

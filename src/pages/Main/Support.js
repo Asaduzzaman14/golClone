@@ -1,20 +1,27 @@
 import React from 'react';
 import { AiOutlineSearch } from 'react-icons/ai';
 import Navbar from '../../layout/Navbar';
-import image from '../../assets/support/portrait-excited-young-girl-holding-mobile-phone.png'
+import image from '../../assets/support/Image.png'
+import img from '../../assets/Kavaratti2.png'
+import icon from '../../assets/support/icon(1).png'
 import './support.css'
+
 
 const Support = () => {
     return (
         <>
             {/* nabvar component */}
-            <Navbar />
-
-            <div>
-
+            <div className='bg-Color padding'>
+                <Navbar />
                 <div className=' supportBgImage'>
-                    <h2 className='pageTitle'>Support</h2>
+                    <div>
+
+                        <h2 className='pageTitle'>Support</h2>
+                    </div>
                 </div>
+
+            </div>
+            <div className='padding'>
 
                 {/* Frequently asked questions */}
                 <div>
@@ -119,6 +126,67 @@ const Support = () => {
                     </div>
                 </div>
             </div>
+
+            {/* contruct us section */}
+            <div className='BackgroundColor padding'>
+                <h2>Contact Us</h2>
+                <p>Any question or remarks? Just write us a message!</p>
+
+                <div className='content text-white row'>
+                    <div className='col-12 col-md-4 '>
+                        <img src={icon} alt="" />
+                        <p className='pt-2'>1901 Thornridge Cir. Shiloh <br />
+                            Hawaii 81063</p>
+                    </div>
+                    <div className='col-12 col-md-4 '>
+                        <img src={icon} alt="" />
+                        <p className='pt-2' >+91-4555545454</p>
+                    </div>
+                    <div className='col-12 col-md-4 '>
+                        <img src={icon} alt="" />
+                        <p className='pt-2'>tim.jennings@example.com</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            {/* map  */}
+            <div className='contrctform padding'>
+                <div className="row">
+                    <div className="orderOne col-12 col-lg-6">
+                        <div>
+                            <img className='w-100' src={img} alt="" />
+                        </div>
+                    </div>
+
+                    <div className=" col-12 col-md-6 mt-sm-5 mt-md-0">
+                        <div className='text-start w-100'>
+                            <div className=''>
+                                <span>First Name</span>
+                                <input className='w-100 input_Box' type="text" />
+                            </div>
+
+                            <div>
+                                <p>Last Name</p>
+                                <input className='w-100 input_Box' type="email" />
+                            </div>
+                            <div>
+                                <p>Email</p>
+                                <input className='w-100 input_Box' type="email" />
+                            </div>
+                            <div>
+                                <textarea className='w-100 input_Box' type="text" cols={30} rows={10} />
+                            </div>
+                            <button className='submitBtn mb-4'>Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </>
     );
 };

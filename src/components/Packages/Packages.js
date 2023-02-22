@@ -31,7 +31,7 @@ const Packages = () => {
 
     return (
         <>
-            <div className='mt-5'>
+            <div className='mt-5 padding'>
                 <h2 className='packagesTitle'>Best Packages For You</h2>
                 <p className=''>This is a unique experience on ship, sea and land, exploring different coral islands of Lakshadweep.</p>
 

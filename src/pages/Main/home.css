@@ -1,7 +1,12 @@
-.menuBtn {
-    /* margin-top: 40px; */
-    color: #3282AD !important;
+.Banner {
+    background: linear-gradient(180deg, #E5F8FE 14.25%, rgba(255, 255, 255, 0) 100%) !important;
+    /* padding: 0 70px; */
 
+}
+
+
+.menuBtn {
+    color: #3282AD !important;
 }
 
 .signup {
@@ -71,6 +76,34 @@ Li {
     /* margin-top: 230px; */
 }
 
+.bannerContainer {
+    background-image: url('../../assets/line.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.imageBg2 {
+    background-image: url('../../assets/banner0.png');
+    /* z-index: 2; */
+    /* background-image: url('../../assets/map.png'); */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
+}
+
+.imageBg {
+    background-image: url('../../assets/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
 
 @media screen and (max-width:768px) {
     .bannerImage {
@@ -95,12 +128,13 @@ Li {
         margin-bottom: 100px;
     }
 
+
 }
 
 @media screen and (max-width:450px) {
 
-    .visitButton {
-        display: none !important;
+    .hide {
+        display: none;
     }
 
     .bannerImage {
@@ -108,7 +142,7 @@ Li {
     }
 
     .title {
-        padding-top: 112px;
+        margin-top: 112px;
 
     }
 

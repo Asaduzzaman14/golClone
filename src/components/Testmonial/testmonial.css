@@ -10,7 +10,7 @@
 
 .reviewCard {
     height: 524px;
-    width: 393px;
+    max-width: 393px;
     margin: 0 auto;
     background: #FFFFFF;
     box-shadow: 0px 0px 25px rgba(50, 130, 173, 0.15);
