@@ -4,6 +4,7 @@
 
 .blackSection {
     width: 90%;
+    width: calc(100% - 70px);
     text-align: center;
     margin: 0 auto;
     height: 311.13px;
@@ -13,9 +14,10 @@
 
 .image {
     background-image: url('../../assets/footerCercel.png');
+
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover !important;
+    background-size: 200px !important;
 }
 
 .desc {
@@ -118,12 +120,12 @@
     }
 
     .socialSection {
-        width: 750px;
+        width: 100%;
 
     }
 
     .socialLinks {
-        width: 750px;
+        width: 100%;
     }
 }
 
@@ -167,10 +169,7 @@
         display: none;
     }
 
-    .socialLinks {
-        width: 768px;
-        /* width: 1366px; */
-    }
+
 
     .socialLinks {
 
@@ -179,7 +178,7 @@
 
     .socialSection {
 
-        width: 100%;
+        width: 400;
     }
 
     .accordion {

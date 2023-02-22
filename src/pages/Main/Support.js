@@ -115,7 +115,7 @@ const Support = () => {
                                     <button className='touchBtn'>Get in touch</button>
                                 </div>
 
-                                <div className='sectionImages '>
+                                <div className='sectionImages d-none d-md-block'>
                                     <div className='imagesBg w-100'>
                                         <img src={image} alt="" />
                                     </div>
@@ -156,7 +156,7 @@ const Support = () => {
             {/* map  */}
             <div className='contrctform padding'>
                 <div className="row">
-                    <div className="orderOne col-12 col-lg-6">
+                    <div className="orderOne col-12 col-md-6">
                         <div>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233668.38703692693!2d90.27919586057241!3d23.780573258035947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1677084331321!5m2!1sen!2sbd" width="100%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
@@ -178,7 +178,7 @@ const Support = () => {
                                 <input className='w-100 input_Box' type="email" />
                             </div>
                             <div>
-                                <textarea className='w-100 input_Box' type="text" cols={30} rows={10} />
+                                <textarea className='w-100 input_Box' type="text" cols={10} rows={10} />
                             </div>
                             <button className='submitBtn mb-4'>Submit</button>
                         </div>

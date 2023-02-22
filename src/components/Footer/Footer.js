@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../../assets/footerMobile.png'
 import logo from '../../assets/google-play-store.png'
 import icon from '../../assets/social media.png'
-import gol from '../../assets/gol-logo.jpg'
+import gol from '../../assets/gol-logo-white.png'
 
 
 import './footer.css'
@@ -43,7 +43,7 @@ const Footer = () => {
                         </div>
 
                         <div className='col-12 col-md-6'>
-                            <div className='FooterMobile d-sm-none d-md-block'>
+                            <div className='FooterMobile d-none d-md-block'>
                                 <img className='footrMobile mobileHeight  moble' src={image} alt="" />
                             </div>
                         </div>
@@ -86,11 +86,11 @@ const Footer = () => {
                 </div>
 
                 {/* accordion start */}
-                <div className='accordion p-2'>
+                <div className='accordion w-90 p-2 '>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
 
 
-                        <div class="accordion-item">
+                        <div class="accordion-item w-90">
                             <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                                     <h4>Company</h4>
