@@ -17,7 +17,7 @@ const Navbar = () => {
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
 
                             <li class="nav-item">
                                 <Link to='/findReservations' class="nav-link active" aria-current="page" href="findReservations">Find Reservations</Link>

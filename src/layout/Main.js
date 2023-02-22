@@ -10,7 +10,7 @@ const Main = () => {
             <div className='pb-5 mb-5 outlate'>
                 <Outlet />
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };
