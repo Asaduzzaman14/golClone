@@ -71,24 +71,25 @@ Li {
 }
 
 .bannerImage {
-    width: 421.17px;
-    height: 425.51px;
+    width: 400px;
+    height: 410px;
     /* margin-top: 230px; */
 }
 
+/* 
 .bannerContainer {
     background-image: url('../../assets/line.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-}
+} */
 
 .imageBg2 {
     background-image: url('../../assets/banner0.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
 }
 
 .image3 {

@@ -52,7 +52,7 @@ const IslandStay = () => {
     return (
         <div className='padding'>
             <h2 className='mb-2' style={{ marginTop: '88px' }}>Island Stays</h2>
-            <p className='IslandStayDesc'>
+            <p className='IslandStayDesc mx-w-75'>
                 One can choose from a variety of beautiful coral islands which offers different staying experiences from thatched huts to luxurious
                 modern properties. Every island offers a wider range of water sports and beach activities for you to enjoy.</p>
             <div>
@@ -66,7 +66,7 @@ const IslandStay = () => {
                                             <img className='w-100' src={data.img} alt='package' />
                                         </div>
 
-                                        <div className='cardDescriptions '>
+                                        <div className='p-3 shadow rounded'>
                                             <span className='cardTitle'>{data.location}</span>
                                             <p className='cardDesc text-start'>{data.desc}</p>
 
@@ -75,7 +75,7 @@ const IslandStay = () => {
                                                     <span className='ratting'>  <AiFillStar style={{ color: '#3282AD' }} /> {data.ratting}</span>
                                                     <span className=' ms-2 totalReview'>(1.5k Review)</span>
                                                 </div>
-                                                <button className='cardButton ms-auto border-0 text-white mx-auto'>Explore More</button>
+                                                <button className='cardButton ms-auto border-0 text-white'>Explore More</button>
                                             </div>
 
                                         </div>

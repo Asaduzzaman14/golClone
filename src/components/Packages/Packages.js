@@ -45,14 +45,14 @@ const Packages = () => {
                 </div>
 
                 <div className=''>
-                    <div className='row g-3'>
+                    <div className='row g-4'>
                         {
                             datas.map((data) => {
                                 return (
                                     <div className='packageCard col-12 col-md-6 col-lg-4 '>
                                         <div className='shadow rounded'>
                                             <div className='image'>
-                                                <img className='w-100' src={data.img} alt='package' />
+                                                <img className='w-100 rounded-top' src={data.img} alt='package' />
                                                 <span className='price'>₹500</span>
                                             </div>
 
@@ -63,7 +63,7 @@ const Packages = () => {
                                                 </div>
 
                                                 <p className='cardDesc text-start'>{data.desc}</p>
-                                                <button className='cardButton explore border-0 text-white text-end mx-auto'>Book now</button>
+                                                <button className='cardButton  border-0 text-white text-center mx-auto'>Book now</button>
                                             </div>
                                         </div>
                                     </div>
