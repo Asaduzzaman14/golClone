@@ -5,6 +5,14 @@ import FindReservations from "../pages/Main/FindReservations";
 import Gol from "../pages/Main/Gol";
 import Home from "../pages/Main/Home";
 import Support from "../pages/Main/Support";
+import Dashboard from "../layout/Dashboard/Dashboard";
+import ManageHome from "../pages/Dashboard/ManageHome";
+import Description from "../pages/Dashboard/Description";
+import Admins from "../pages/Dashboard/Admins";
+import Users from "../pages/Dashboard/Users";
+import Login from "../pages/Authentication/Login/Login";
+import Register from "../pages/Authentication/Register/Register";
+import PrivateRoute from "../pages/Authentication/PrivateRoute";
 
 const routes = createBrowserRouter([
 
@@ -30,7 +38,48 @@ const routes = createBrowserRouter([
             },
             {
                 path: "gol",
-                element: <Gol />,
+                element:
+                    <PrivateRoute>
+                        <Gol />,
+                    </PrivateRoute>
+            },
+            {
+                path: "login",
+                element: <Login />,
+            },
+            {
+                path: "register",
+                element: <Register />,
+            },
+        ]
+    },
+    {
+        path: "dashboard",
+        element:
+            <PrivateRoute>
+                <Dashboard />
+            </PrivateRoute>
+        ,
+        children: [
+            {
+                path: "/dashboard",
+                element: <ManageHome />,
+            },
+            {
+                path: "manageHome",
+                element: <ManageHome />,
+            },
+            {
+                path: "description",
+                element: <Description />,
+            },
+            {
+                path: "admins",
+                element: <Admins />,
+            },
+            {
+                path: "users",
+                element: <Users />,
             },
         ]
     }
